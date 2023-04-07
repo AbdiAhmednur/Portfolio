@@ -4,8 +4,13 @@ import LandingPage from './Component/landingPage';
 import About from './Component/About';
 import Projects from './Component/Projects';
 import Contact from './Component/Contact'
+import React, { useEffect } from 'react';
 
-function App() {
+const App = () => {
+  useEffect(() => {
+    document.title = "Abdirahman Ahmednur";
+  }, []);
+
   return (
     <div>
       <Headers />
@@ -18,3 +23,7 @@ function App() {
 }
 
 export default App;
+
+
+
+

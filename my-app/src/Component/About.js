@@ -13,7 +13,7 @@ function About(){
         <p>I am a self-motivated Full-stack Web developer with a technical skills, creativity, and problem-solving abilities. 
             I am always looking for new projects and new challenges to push and test myself. I got into coding by building websites on wordpress and I wanted to take my skills to the next level, pushing myself to the higher level. 
             My goal is to build interactive and user friendly websites, push my skill set build challenging websites and interactive apps. 
-            I am committed to constantly improving my skills and staying up-to-date with the latest technologies, as I strive to make a meaningful contribution to the web development.</p>
+            I am committed to constantly improving my skills and staying up-to-date with the latest technologies, as I strive to make a meaningful contribution to web development.</p>
 
 
           
