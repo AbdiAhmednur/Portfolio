@@ -119,9 +119,17 @@ ul {
 
 
 
-ul li :hover {
-  text-decoration: underline;
+
+
+@media all and (max-width: 700px) {
+  ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
+
 
 #about {
   color: white;
@@ -135,7 +143,7 @@ ul li :hover {
 
 .lb {
   display: flex;
-  justify-content:space-between;
+  justify-content:space-around;
 
 }
 
@@ -151,12 +159,37 @@ button {
 
 }
 
-button:hover {
+button a {
+  text-decoration: none;
   font-weight: bold;
-  text-decoration: underline;
-  background-color: #008000;
+}
+
+
+
+
+
+@media all and (max-width: 500px) {
+  button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
 }
+
+button:hover {
+  font-weight: bold;
+  background-color: #008000;
+  color: red;
+  text-decoration: none;
+}
+
+button a:hover {
+  color: white; 
+  font-weight: bold; 
+}
+
 
 
 
