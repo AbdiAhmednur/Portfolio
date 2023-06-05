@@ -1,11 +1,11 @@
-import CV from '../Pictures/CV-Web-Development NeW .pdf';
+import CV from '../Pictures/CV-Frontend Developers.pdf';
 
 function landingPage() {
   return (
     <>
       <section id="landing" className="landing">
         <h1 className="landing-title">
-          Hi, my name is <strong className="name">Abdirahman Ahmednur</strong>. I am a Web Developer.
+          Hi, my name is <strong className="name">Abdirahman</strong>. I am a front end developer.
         </h1>
       </section>
       <br />

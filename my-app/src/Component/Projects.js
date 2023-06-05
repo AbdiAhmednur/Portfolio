@@ -34,7 +34,7 @@ function Projects() {
         <p>{project.description}</p>
         <br />
         <a className="source-btn" href={project.source} target="_blank" rel="noreferrer">Source code</a> < br/> <br /> <br />
-         <a className="source-btn" href={project.link} target="_blank" rel="noreferrer">Live Projects</a>
+         <a className="source-btn" href={project.link} target="_blank" rel="noreferrer">Live Project</a>
       </div>
       
       <img className="project-image" src={project.image} alt="projects" />
