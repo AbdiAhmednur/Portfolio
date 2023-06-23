@@ -1,4 +1,4 @@
-import CV from '../Pictures/CV-Frontend Developers.pdf';
+import CV from '../Pictures/CV-Frontend Developers .pdf';
 
 function landingPage() {
   return (

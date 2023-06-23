@@ -1,6 +1,7 @@
 import MemeGenerator from '../Pictures/Meme Generator picture.png';
 import TravelJournal from '../Pictures/Travel journal picture.png';
 import Tezenis from '../Pictures/Tezenis.png';
+import fylo from '../Pictures/fylo.jpg';
 
 function Projects() {
   const projectList = [
@@ -24,6 +25,13 @@ function Projects() {
       image: Tezenis,
       link: 'https://tenzies101.netlify.app',
       source: 'https://github.com/AbdiAhmednur/Tenzies-App'
+    },
+    {
+      name: 'Fylo',
+      description: 'A file storage website created with Tailwind CSS, allowing you to access all your files in one platform. It allows you to share your work friends, families, and colleagues to collaborate with. Unlock, the potential for dynamic teamwork, where ideas can come to life and projects can thrive. Discover, the future of file storage and collaboration, all within your reach.',
+      image: fylo,
+      link: 'https://fylo101.netlify.app',
+      source:  'https://github.com/AbdiAhmednur/Fylo'
     }
   ];
 
